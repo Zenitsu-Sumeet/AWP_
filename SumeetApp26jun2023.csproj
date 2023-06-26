@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="progams\details.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="progams\details.cs" />
+  </ItemGroup>
+
 </Project>
