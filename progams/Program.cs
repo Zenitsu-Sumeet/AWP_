@@ -44,7 +44,26 @@ namespace SumeetApp26jun2023
             bool end = here.EndsWith("you");
             Console.WriteLine(end);
             Console.WriteLine("--------------------");
+            int ab = 10, bc = 78;
+            int cd = Math.Min(ab, bc);
+            int dc = Math.Max(ab, bc);
+            Console.WriteLine(cd);
+            Console.WriteLine(bc);
+            Console.WriteLine("--------------------");
 
+            if (ab > bc)
+            {
+                Console.WriteLine("Number is smaller");
+            }
+            else
+            {
+                Console.WriteLine("Number is Bigger");
+            }
+            Console.WriteLine(Math.Abs(-98));
+            Console.WriteLine(Math.Pow(2, 6));
+            Console.WriteLine(Math.Ceiling(12.54));
+            Console.WriteLine(Math.Round(12.54));
+            Console.WriteLine(Math.Floor(12.54));
         }
     }
 }
