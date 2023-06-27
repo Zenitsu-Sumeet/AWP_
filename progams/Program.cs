@@ -43,6 +43,7 @@ namespace SumeetApp26jun2023
 
             bool end = here.EndsWith("you");
             Console.WriteLine(end);
+            Console.WriteLine("--------------------");
 
         }
     }
