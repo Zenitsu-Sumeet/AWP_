@@ -36,6 +36,14 @@ namespace SumeetApp26jun2023
             Console.WriteLine(t);
             Console.WriteLine("--------------------");
 
+            string here = "how is you";
+            bool come = here.StartsWith("how");
+            Console.WriteLine(come);
+            Console.WriteLine("--------------------");
+
+            bool end = here.EndsWith("you");
+            Console.WriteLine(end);
+
         }
     }
 }
