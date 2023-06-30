@@ -64,6 +64,14 @@ namespace SumeetApp26jun2023
             Console.WriteLine(Math.Ceiling(12.54));
             Console.WriteLine(Math.Round(12.54));
             Console.WriteLine(Math.Floor(12.54));
+
+
+            int[] array = new int[4] { 1, 2, 4, 5 };
+            int[] cl = new int[array.Length];
+            Array.Copy(array, cl, 3);
+
+
+
         }
     }
 }
