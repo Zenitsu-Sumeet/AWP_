@@ -7,6 +7,10 @@ namespace SumeetApp26jun2023
         {
             Console.WriteLine(x + y);
         }
+        void squre(int x)
+        {
+            Console.WriteLine(x*x);
+        }
         static void Main(string[] args)
         {
             int[] number = { 1, 2, 5, 4, 5 };
@@ -78,6 +82,7 @@ namespace SumeetApp26jun2023
 
             Program p = new Program();
             p.Add(1, 4);
+            p.squre(8);
 
 
 
