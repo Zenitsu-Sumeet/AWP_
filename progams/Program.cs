@@ -2,7 +2,12 @@
 
 namespace SumeetApp26jun2023
 {class Program
-    { static void Main(string[] args)
+    {
+        void Add(int x ,int y)
+        {
+            Console.WriteLine(x + y);
+        }
+        static void Main(string[] args)
         {
             int[] number = { 1, 2, 5, 4, 5 };
             foreach(int r in number)
@@ -69,6 +74,11 @@ namespace SumeetApp26jun2023
             int[] array = new int[4] { 1, 2, 4, 5 };
             int[] cl = new int[array.Length];
             Array.Copy(array, cl, 3);
+            Console.WriteLine("--------------------");
+
+            Program p = new Program();
+            p.Add(1, 4);
+
 
 
 
