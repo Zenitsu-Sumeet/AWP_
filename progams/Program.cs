@@ -3,14 +3,12 @@
 namespace SumeetApp26jun2023
 {class Program
     {
+        delegate void sumeet(int x, int y);
         void Add(int x ,int y)
         {
             Console.WriteLine(x + y);
         }
-        void squre(int x)
-        {
-            Console.WriteLine(x*x);
-        }
+      
         static void Main(string[] args)
         {
             int[] number = { 1, 2, 5, 4, 5 };
@@ -59,7 +57,6 @@ namespace SumeetApp26jun2023
             Console.WriteLine(cd);
             Console.WriteLine(bc);
             Console.WriteLine("--------------------");
-
             if (ab > bc)
             {
                 Console.WriteLine("Number is smaller");
@@ -82,7 +79,18 @@ namespace SumeetApp26jun2023
 
             Program p = new Program();
             p.Add(1, 4);
-            p.squre(8);
+            sumeet d = new sumeet(p.Add);
+            d(8, 5);
+            
+
+
+            Console.WriteLine("--------------------");
+
+
+
+
+
+
 
 
 
